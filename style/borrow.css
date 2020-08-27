@@ -1,0 +1,97 @@
+.book_title {
+	position: relative;
+	width: 60%;
+	top: 172px;
+	margin: 0 auto;
+}
+
+.book_title h2{
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
+	font-weight: bold;
+	color: #1F1F1F;
+}
+
+.borrow-container{
+	position: relative;
+	width: calc(60% + 60px);
+	height: 100%;
+	top: 250px;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.borrow_info {
+	flex-basis: calc(50% - 60px);
+	margin: 30px;
+	position: relative;
+	align-items: center;
+	color: #1F1F1F;
+}
+
+.borrow_info h3{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 27px;
+	color: #1F1F1F;
+}
+
+.borrow_info input{
+	position: relative;
+	width: 100%;
+	height: 56px;
+	margin-top: 20px;
+
+	border: 1px solid #E9E9E9;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	padding-left: 16px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.borrow_info .info_name, .info_state{
+	background: #FFFFFF;
+	color: #1F1F1F;
+	/* gray_light */
+}
+
+.borrow_info .info_date {
+	background: #E9E9E9;
+	color: #939393;
+}
+
+.borrow_button {
+	position: relative;
+	top: 300px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.borrow_button .btn{
+	position: absolute;
+	width: 214px;
+	height: 56px;
+
+	right: 0px;
+	border: 1px solid #3562FF;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	background: #FFFFFF;
+	color: #3562FF;
+	font-weight: bold;
+	outline:none;
+	transition: 0.3s;
+}
+
+.borrow_button .btn:hover{
+	background-color: #3562FF;
+	color: #FFFFFF;
+	cursor: pointer;
+}
