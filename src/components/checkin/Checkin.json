@@ -1,0 +1,13 @@
+{
+    "data": {
+        "id": 3,
+        "overdueDay": 1,
+        "checkoutStatus": "Good",
+        "user": {
+            "userName": "hyekim"
+        },
+        "book": {
+            "title": "에디슨 위인전"
+        }
+    }
+}

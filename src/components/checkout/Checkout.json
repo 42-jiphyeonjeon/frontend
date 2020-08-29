@@ -1,0 +1,16 @@
+{
+    "data": {
+        "id": 1,
+        "title": "해커와 화가 #1",
+        "author": "김형선",
+        "active": true,
+        "status": "문제 없음",
+        "checkout": {
+            "id": 1,
+            "overdueDay": -9,
+            "user": {
+                "userName": "junslee"
+            }
+        }
+    }
+}

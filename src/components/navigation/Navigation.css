@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SpoqaHanSans;
+}
+
 header {
 	position: absolute;
 	width: 100%;
@@ -23,7 +30,7 @@ header {
     height: 56px;
     position: absolute;
     float: left;
-    margin-top: 22px;
+    margin-top: 24px;
 }
 
 .navigation-logo h2 {

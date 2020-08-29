@@ -1,0 +1,27 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "화가와 해커 #1",
+            "author": "이준서",
+            "checkout": {
+                "overdueDay": 3,
+                "user": {
+                    "userName": "junslee"
+                }
+            }
+        },
+        {
+          "id": 2,
+          "title": "화가와 해커 #2",
+          "author": "이준서",
+          "checkout": {
+              "overdueDay": 1,
+              "user": {
+                  "userName": "hyekim"
+              }
+          }
+      }
+    ],
+    "count": 2
+  }

@@ -1,0 +1,71 @@
+/* ==========checkout============ */
+.item-info .checkout{
+	position: absolute;
+	width: 100%;
+	height: 56px;
+
+	background: #FFFFFF;
+	border: 1px solid #3562FF;
+	box-sizing: border-box;
+	border-radius: 8px;
+	bottom: 0;
+
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	color: #3652FF;
+	outline: none;
+	transition: 0.3s;
+}
+
+.item-info .checkout:hover{
+	background: #3562FF;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/* ===========unable_checkout========= */
+.item-info .unable_checkout{
+	position: absolute;
+	width: 100%;
+	height: 56px;
+
+	background: #FFFFFF;
+	border: 1px solid #939393;
+	box-sizing: border-box;
+	border-radius: 8px;
+	bottom: 0;
+
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	color: #939393;
+	outline: none;
+	pointer-events: none;
+}
+
+/* ===========checkin========= */
+.item-info .checkin{
+	position: absolute;
+	width: 100%;
+	height: 56px;
+
+	background: #FFFFFF;
+	border: 1px solid #FF5C5C;
+	box-sizing: border-box;
+	border-radius: 8px;
+	bottom: 0;
+
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+	color: #FF5C5C;
+	outline: none;
+	transition: 0.3s;
+}
+
+.item-info .checkin:hover{
+	background:#FF5C5C;
+	color: #FFFFFF;
+	cursor: pointer;
+}

@@ -1,0 +1,51 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "해커와 화가 #1",
+            "author": "김형선",
+            "active": true,
+            "checkout": {
+                "id": 100,
+                "overdueDay": -9,
+                "user": {
+                    "userName": "junslee"
+                }
+            }
+        },
+        {
+            "id": 5,
+            "title": "해커와 화가 #2",
+            "author": "김형선",
+            "active": true,
+            "checkout": null
+        },
+        {
+            "id": 2,
+            "title": "화가와 해커",
+            "author": "이준서",
+            "active": true,
+            "checkout": {
+                "id": 200,
+                "overdueDay": 1,
+                "user": {
+                    "userName": "junslee"
+                }
+            }
+        },
+        {
+            "id": 4,
+            "title": "화가와 해커",
+            "author": "이준서",
+            "active": true,
+            "checkout": {
+                "id": 4,
+                "overdueDay": 42,
+                "user": {
+                    "userName": "chlee"
+                }
+            }
+        }
+    ],
+    "count": 3
+}

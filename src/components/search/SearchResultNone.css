@@ -1,7 +1,7 @@
 .item-none {
 	position: relative;
 	width: 100%;
-	top: 400px;
+	margin-top: 200px;
 	align-items: center;
 	text-align: center;
 }
