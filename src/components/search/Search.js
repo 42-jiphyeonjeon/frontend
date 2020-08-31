@@ -45,10 +45,10 @@ class Search extends Component{
 	render() {
 		return(
 			<Fragment>
-				<div class="search-container">
+				<div className="search-container">
 					<form onSubmit={this.handleSubmit}>
 						<input type="text" placeholder="도서명, 저자를 입력하세요." onChange={this.handleSearchTextChange}/>
-						<input type="submit" id="btn" class="test" value="검색" />
+						<input type="submit" id="btn" className="test" value="검색" />
 					</form>
 				</div>
 				<SearchResultNum count = {this.state.count}/>

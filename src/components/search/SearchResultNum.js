@@ -6,7 +6,7 @@ class SearchResultNum extends Component{
 		let resultNum = this.props.count;
 		return (
 			<Fragment>
-				<div class="search-result">
+				<div className="search-result">
 					<h1>검색결과</h1>
 					<h3>총 {resultNum}개의 결과가 검색되었습니다.</h3>
 				</div>

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: SpoqaHanSans;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .search-container {
@@ -19,17 +19,17 @@
 	height: 56px;
 
 	/* white */
-	
+
 	background: #FFFFFF;
 	/* gray_light */
-	
+
 	border: 1px solid #E9E9E9;
 	box-sizing: border-box;
 	border-radius: 8px;
 }
 
 .search-container input[type=text]{
-	
+
 	width: calc(100% - 23%);
 	padding-left: 10px;
 }
